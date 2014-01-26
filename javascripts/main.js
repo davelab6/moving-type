@@ -35,8 +35,8 @@ blacki.svgText = (function() {
 
     function drawName() {
         text.empty();
-        var blacki = $(['b', 'l', 'a', 'c', 'k', 'i']);
-        blacki.each(function(index) {
+        var initialText = $(['h', 'a', 'v', 'e', 'f', 'u', 'n']);
+        initialText.each(function(index) {
             key = glyphs.find('#' + this);
 
             text.append(key.clone().removeAttr('id').addClass(this));
